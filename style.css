@@ -126,6 +126,11 @@ footer {
   text-align: center;
 }
 
+footer h2 {
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
 .social a {
   text-decoration: none;
   color: var(--light);
