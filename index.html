@@ -75,10 +75,23 @@
       </footer>
       
       <script>
+  // Animatsiya scroll paytida ishlashi uchun
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  }, { threshold: 0.1 });
+          
         // avtomatik yil
         document.getElementById('year').textContent = new Date().getFullYear();
-      </script>
+
+  document.querySelectorAll(".course-card, .courses-section h2").forEach(el => observer.observe(el));
+</script>
+
 </body>
 </html>
+
 
 
