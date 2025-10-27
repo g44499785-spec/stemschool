@@ -145,7 +145,15 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     animation: fadeIn 0.8s ease-in-out;
 }
-
+.back-btn{
+    text-decoration: none;
+    color: white;
+    background: #0072ff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 0 10px;
+    display: inline-block;
+}
   
   footer p {
     margin-top: 25px;
@@ -175,3 +183,4 @@
       margin: 50px 10px;
     }
   }
+
